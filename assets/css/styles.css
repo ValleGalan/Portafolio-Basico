@@ -79,7 +79,8 @@ body {
 }
 
 .avatar-container {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +90,7 @@ body {
 
 .avatar-container img {
   height: 700px;
-  width: auto;
+  width: 100%;
 }
 
 .avatar-container h3 {
