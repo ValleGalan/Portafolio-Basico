@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
+  --primary-color: #5B4B8A;
+  --primary-color-dark: #371B58;
   --accent-color: #FFF8F0;
 }
 
@@ -41,6 +41,7 @@ body {
 .menu-item a:hover {
   background-color: var(--accent-color);
   color: var(--primary-color-dark);
+  border-radius: 6px;
 }
 
 .menu-item a {
