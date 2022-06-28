@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 <link rel="shortcut icon" href="/assets/img/Icono.ico" type="image/x-icon">
+<link rel="stylesheet" href="/assets/js/js.js">
   <title>Mi Portfolio</title>
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <a href="#" class="logo">Mi Portfolio</a>
+      <a href="#home" class="logo menu">Mi Portfolio</a>
       <ul class="menu">
         <li class="menu-item">
           <a href="#home">Inicio</a>
@@ -33,19 +34,19 @@
   <section id="home" class="content">
     <div class="half-section">
      <div class="avatar-container">
-      <img src="./assets/img/perfil.jpg" alt="">
-      <h3>"Yo, disfrutando de mi café..."</h3>
+      <img src="./assets/img/perfil.jpg" alt="no cargo la imagen">
      </div>
     </div>
     <div class="half-section text-section">
       <div class="introduction">
         <h1 class="title">Hola!, <br> Soy Florencia Galán </h1>
         <ul class="socials">
-          <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="socials-icon" href="https://github.com/ValleGalan"> <i class="bi bi-github"></i></a></li>
+          <li><a class="socials-icon" href="https://www.linkedin.com/in/florencia-galan/"><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="socials-icon" href="https://www.facebook.com/florgalan15"><i class="bi bi-facebook"></i></a></li>
+          <!--       
           <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>-->
         </ul>
   
         <p class="description">7 meses de experiencia trabajando en la industria IT <br> Déjame contarte un poco de mí, sigue deslizando!</p>
@@ -55,18 +56,16 @@
   </section>
   
   <section id="about" class="content">
-    <aside class="half-section text-section">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint porro reiciendis debitis et harum animi rem fugit eaque. Officia maxime id ipsum culpa temporibus dolore saepe quos quasi debitis.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam rem quam, corporis itaque dolor deserunt libero doloremque quibusdam repellat quidem doloribus quia eos officia placeat, quasi, odit repellendus ipsa.
+    <aside class="half-section text-section wrapedText">
+      <p class="wrapedText">
+       Me gusta estar en constante aprendisaje, soy curiosa y responsable
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
+      <p class="wrapedText">
+       Estudio Ing.Informatica y Lic.Sistemas en la Facultad de ingenieria de Jujuy
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
+      <p class="wrapedText">
+       Tengo conocimientos en HTML ,CSS ,Java ,Python ,C++ ,C#, Javascripts y en los framework como Django, .NET, Spring. Los
+       framework que manejo de la parte del front son Angular y React basico aún.
       </p>
     </aside>
     <aside class="half-section title-section">
@@ -82,30 +81,25 @@
         <ul class="project-list">
           <li>
             <h3>Proyecto 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quisquam, quidem, quisquam.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            <p class="wrapedText">
+              Web Scraping con Django a Mercado Libre, te avisa si rebajo o no el precio.
+              Es un sitio web responsive usando bootstrap 
             </p>
             <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
           </li>
           <li>
             <h3>Proyecto 2</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quisquam, quidem, quisquam.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            <p class="wrapedText">
+              Clinica Privada es una aplicación de escritorio realizado en c# con windows Form 
             </p>
-            <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
+            <a class="project-link" href="https://github.com/ValleGalan/ClinicaPrivada-Proem.git"><i class="bi bi-github"></i> Ver más</a>
           </li>
           <li>
             <h3>Proyecto 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quisquam, quidem, quisquam.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto sapiente itaque eius voluptate! Nisi voluptas explicabo quaerat? Alias perspiciatis vel praesentium adipisci impedit? Commodi harum repellat eum beatae dolorum.
+            <p class="wrapedText">
+               Minis proyectos en Angular
             </p>
-            <a class="project-link" href="#"><i class="bi bi-github"></i> Ver más</a>
+            <a class="project-link" href="https://github.com/ValleGalan/MiniProyectosAngular.git"><i class="bi bi-github"></i> Ver más</a>
           </li>
         </ul>
     </aside>
@@ -116,7 +110,7 @@
         <label for="name">Nombre</label>
         <input class="input-field" type="text" name="name" id="name">
         <label for="email">Email</label>
-        <input class="input-field type="email" name="email" id="email">
+        <input class="input-field" type="email" name="email" id="email">
         <label for="message">Mensaje</label>
         <textarea class="input-field" name="message" id="message" cols="30" rows="10"></textarea>
         <input class="btn-send-message" type="submit" value="Enviar">
@@ -129,16 +123,18 @@
   <footer>
     <div class="footer-section-container">
       <ul class="socials">
-        <li><a class="socials-icon" href=""> <i class="bi bi-github"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+        <li><a class="socials-icon" href="https://github.com/ValleGalan"> <i class="bi bi-github"></i></a></li>
+        <li><a class="socials-icon" href="https://www.linkedin.com/in/florencia-galan/"><i class="bi bi-linkedin"></i></a></li>
+        <li><a class="socials-icon" href="https://www.facebook.com/florgalan15"><i class="bi bi-facebook"></i></a></li>
+<!--       
+  <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
+  <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>-->
+
       </ul>
     </div>
       <div class="footer-section-container">
         <p>
-          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com">Nombre y Apellido</a>
+          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com/in/florencia-galan/">Florencia Galán</a>
         </p>
       </div>
   </footer>

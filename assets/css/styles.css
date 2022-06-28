@@ -217,3 +217,11 @@ footer {
   font-size: 18px;
 }
 
+.wrapedText {
+  white-space: pre-line;
+  text-align: start;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.0;
+}
+
