@@ -1,3 +1,3 @@
-#van los archivos que no quiero que vea git 
+#van los archivos que no quiero que vea git , las carpetas vacias las ignora por defecto
 #.env archivo de entorno global es decir variable globales
 .env   
