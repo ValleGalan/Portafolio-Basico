@@ -165,13 +165,13 @@ form {
 }
 
 .input-field {
-  border: 0;
   background-color: var(--accent-color);
   font: inherit;
   font-size: 1.125rem;
   padding: .25rem 0;
   margin-top: 5px;
   margin-bottom: 15px;
+  border-radius: 6px;
 }
 
 .input-field:focus {
@@ -193,7 +193,7 @@ form {
 
 .btn-send-message:hover,
 .btn-send-message:focus {
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color);
   color: var(--accent-color);
 }
 
@@ -223,5 +223,10 @@ footer {
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.0;
+}
+form{
+  background-color: var( --primary-color-dark);
+  border-radius: 6px;
+  padding: 4%;
 }
 
