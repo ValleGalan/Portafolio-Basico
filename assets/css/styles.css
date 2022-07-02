@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rowdies&display=swap');
 
 :root {
   --primary-color: #5B4B8A;
   --primary-color-dark: #371B58;
   --accent-color: #FFF8F0;
+  --sombra: #EE81B3;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
   padding: 0;
   font-family: 'Manrope', sans-serif;
 }
-
+/**Menu*/
 .navbar {
   position: fixed;
   width: 100%;
@@ -62,54 +63,41 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-
-.introduction {
-  padding-left: 50px;
-}
-
+/**Section :Home*/
 .content {
   display: flex;
   height: 100vh;
   width: 100%;
   flex-direction: row;
 }
-
 .half-section {
   width: 50%;
-}
-
-.avatar-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: var(--accent-color);
 }
-
+.introduction {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
 .avatar-container img {
-  height: 700px;
-  width: 100%;
+  width:100%;
+  height:100%;
 }
 
-.avatar-container h3 {
-  margin: 0;
-}
-
-h1 {
-  margin: 100px 0 0 0;
-  font-size: 60px;
+.title {
   font-weight: 800;
+  font-size:3em;
   color: var(--accent-color);
   text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px var(--sombra);
 }
 
 .socials {
   list-style: none;
   display: flex;
   flex-direction: row;
-  padding: 0;
+  justify-content: center;
 }
 
 .socials-icon {
@@ -117,8 +105,14 @@ h1 {
   text-decoration: none;
   margin-right: 15px;
   color: var(--accent-color);
+  border-radius: 6px;
+  background-color: var(--primary-color-dark);
+  padding: 2%;
 }
-
+.description{
+  text-align:center;
+}
+/**Section: About*/
 .text-section {
   background-color: var(--primary-color);
   display: flex;
@@ -136,16 +130,13 @@ h1 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 40px;
+  text-shadow: 7px 7px var(--sombra);
 }
-
-.project-list {
+/**Section: proyects*/
+.project-list li{
   list-style: none;
-}
-
-.project-list li {
   margin-bottom: 30px;
 }
-
 .project-link {
   text-decoration: none;
   color: var(--accent-color);
@@ -156,7 +147,7 @@ aside {
   padding-left: 100px;
   padding-right: 100px;
 }
-
+/**Section: Contact*/
 form {
   display: flex;
   flex-direction: column;
@@ -185,7 +176,6 @@ form {
   font-size: 20px;
   background-color: var(--accent-color);
   border-radius: 4px;
-  border-style: none;
   cursor: pointer;
   transition: all 250ms;
   color: var(--primary-color-dark);
@@ -200,10 +190,9 @@ form {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   background-color: var(--primary-color-dark);
   color: var(--accent-color);
-  padding: 20px;
+
 }
 
 .footer-section-container {
