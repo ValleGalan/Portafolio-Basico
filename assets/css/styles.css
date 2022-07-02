@@ -4,6 +4,7 @@
   --primary-color: #5B4B8A;
   --primary-color-dark: #371B58;
   --accent-color: #FFF8F0;
+  --sombra: #EE81B3;
 }
 
 html {
@@ -79,8 +80,8 @@ body {
   flex-direction: column;
 }
 .avatar-container img {
-  height: 100%;
-  width: 100%;
+  width:100%;
+  height:100%;
 }
 
 .title {
@@ -89,6 +90,7 @@ body {
   color: var(--accent-color);
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 3px 3px var(--sombra);
 }
 
 .socials {
@@ -128,6 +130,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 40px;
+  text-shadow: 7px 7px var(--sombra);
 }
 /**Section: proyects*/
 .project-list li{
